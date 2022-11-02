@@ -1,3 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
 body {
-  background-color: rgb(227, 175, 111);
+  font-family: sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+.main {
+  margin: 10% 0 10% 0;
+  height: 80vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Scale svg on hover */
+svg:hover {
+  transform: scale(1.2);
+}
+
+.refresh:hover {
+  animation: spin 1s linear infinite;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.2px solid rgb(123, 123, 123);
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.header .demo {
+  text-align: center;
+  position: absolute;
+  z-index: 8;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo-wrap {
+  width: 500px;
+  height: 500px;
+  background: #ffffff50;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 12px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 12rem;
+}
+
+.wrapper {
+  width: 100%;
+  height: 70%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+  background-color: rgb(19, 97, 158);
+  border-radius: 10px;
+}
+
+.todo-name {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.todo-name:focus {
+  border-bottom: 0.2px solid rgb(123, 123, 123);
+  border-radius: 0;
+}
+
+.todo-name::placeholder {
+  color: rgb(123, 123, 123);
+  font-size: 15px;
+}
+
+.item {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-bottom: 0.2px solid rgb(123, 123, 123);
+  justify-content: space-between;
+}
+
+.item input {
+  margin-left: 10px;
+  color: rgb(123, 123, 123);
+}
+
+.item:hover {
+  background-color: #ffffff80;
+}
+
+/* Create button with no margin */
+.clear-btn {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  margin-bottom: -10px;
+  color: rgb(123, 123, 123);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  background-color: #ffffff80;
 }
