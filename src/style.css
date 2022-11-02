@@ -11,6 +11,8 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: black;
+  display: flex;
+  align-items: center;
 }
 
 .main {
@@ -79,7 +81,6 @@ svg:hover {
   width: 500px;
   height: 500px;
   background: #ffffff50;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
