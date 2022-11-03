@@ -2,7 +2,7 @@
 
 # Awesome Books Project in ES6
 
-> This an awesome books project based on ES6
+> This is a TO-DO list project based on ES6 best practices
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://xrichardroidx.github.io/Add_Books_to_Cart)
+[Live Demo Link](https://xrichardroidx.github.io/Add_New_Items)
 
 ## Getting Started
 
