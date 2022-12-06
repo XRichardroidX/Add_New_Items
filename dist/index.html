@@ -8,18 +8,20 @@
     <script defer src="main.bundle.js"></script></head>
 
     <body>
-        <div class="container">
-            <div class="todo-wrap">
-                <div class="header">
-                    <p class="demo">To-Do List</p>
-                    <p></p>
+        <section class="main">
+            <div class="container">
+                <div class="todo-wrap">
+                    <div class="header">
+                        <p class="demo">ToDo List</p>
+                        <p></p>
+                    </div>
+                    <input type="text" id="todo-name" class="todo-name" placeholder="Add to your list...">
+                    <ul class="wrapper">
+                    </ul>
+                    <button id="clear-btn" class="clear-btn">Clear all completed</button>
                 </div>
-                <input type="text" id="todo-name" class="todo-name" placeholder="Add to your list...">
-                <ul class="wrapper">
-                </ul>
-                <button id="clear-btn" class="clear-btn">Clear all completed</button>
             </div>
-        </div>
+        </section>
     </body>
 
 </html>
