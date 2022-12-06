@@ -34,7 +34,6 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Food App <a name="about-project"></a>
 # Awesome Books Project in ES6
 
 > This an awesome books project based on ES6
