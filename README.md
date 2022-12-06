@@ -43,8 +43,6 @@
 - HTML
 - CSS
 - JavaScript
-- Luxon.js
-- API
 
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 
@@ -53,13 +51,6 @@
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **The users are able to read details about various meals**
-- **The users are able to like the meals**
-- **The users are able to leave comments**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
