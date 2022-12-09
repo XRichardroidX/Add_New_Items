@@ -45,6 +45,23 @@ const saveTodoToLocalStorage = () => {
   localStorage.setItem('todos', JSON.stringify(todosArray));
 };
 
+// Add todo when enter key is pressed
+inputTodo.addEventListener('keypress', (e) => {
+  // Check if input is empty by removing the spaces
+  if (e.key === 'Enter' && inputTodo.value.trim() !== '') {
+    const todoValue = getValueFromInput();
+    todosArray.push({
+      index: todosArray.length + 1,
+      description: todoValue,
+      completed: false,
+    });
+    saveTodoToLocalStorage();
+    createTodo(todosArray[todosArray.length - 1]);
+    deleteTodo();
+  }
+} );
+
+
 const deleteTodo = () => {
   // Delete todo when the svg is clicked
   document.querySelectorAll('.w-6').forEach((item) => {
@@ -79,33 +96,17 @@ const deleteTodo = () => {
   });
 };
 
-// Add todo when enter key is pressed
-inputTodo.addEventListener('keypress', (e) => {
-  // Check if input is empty by removing the spaces
-  if (e.key === 'Enter' && inputTodo.value.trim() !== '') {
-    const todoValue = getValueFromInput();
-    todosArray.push({
-      index: todosArray.length + 1,
-      description: todoValue,
-      completed: false,
-    });
-    saveTodoToLocalStorage();
-    createTodo(todosArray[todosArray.length - 1]);
-    deleteTodo();
-  }
-});
-
 window.onload = () => {
   deleteTodo();
 };
+
+document.querySelector('.clear-btn').addEventListener('click', () => clearAllCompleted(todosArray));
+
+// Get todos from local storage on page load
+document.addEventListener( 'DOMContentLoaded', createTodoFromTheLocalStorage );
 
 // Reload the page whenever the innerHTML of the todo list changes
 todoList.addEventListener('DOMSubtreeModified', () => {
   editTodo(todosArray);
   checkTodo(todosArray);
 });
-
-document.querySelector('.clear-btn').addEventListener('click', () => clearAllCompleted(todosArray));
-
-// Get todos from local storage on page load
-document.addEventListener('DOMContentLoaded', createTodoFromTheLocalStorage);
