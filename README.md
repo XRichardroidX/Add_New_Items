@@ -34,7 +34,6 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Food App <a name="about-project"></a>
 # Awesome Books Project in ES6
 
 > This an awesome books project based on ES6
@@ -44,8 +43,6 @@
 - HTML
 - CSS
 - JavaScript
-- Luxon.js
-- API
 
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 
@@ -54,13 +51,6 @@
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- **The users are able to read details about various meals**
-- **The users are able to like the meals**
-- **The users are able to leave comments**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +59,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Please use the following link to access the website:
-- [Live Demo Link](https://xrichardroidx.github.io/Add_Books_to_Cart/)
+- [Live Demo Link](https://xrichardroidx.github.io/Add_New_Items/)
 
 <div align="center">
 
@@ -105,7 +95,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/XRichardroidX/Add_Books_to_Cart.git
+   git clone https://github.com/XRichardroidX/Add_New_Items.git
    ```
 2. Install NPM packages
    ```sh
@@ -148,7 +138,7 @@ To get a local copy up and running, follow these steps.
 
 - Contributions, issues, and feature requests are welcome!
 
-- Feel free to check the [issues page](https://github.com/KIsmoilov/JS-Capstone-Project/issues).
+- Feel free to check the [issues page](https://github.com/XRichardroidX/Add_New_Items/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +156,7 @@ To get a local copy up and running, follow these steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/XRichardroidX/Add_Books_to_Cart/issues).
+Feel free to check the [issues page](https://github.com/XRichardroidX/Add_New_Items/issues).
 
 ## Show your support
 
@@ -177,7 +167,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
