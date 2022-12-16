@@ -69,7 +69,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 Please use the following link to access the website:
-- [Live Demo Link](https://xrichardroidx.github.io/Add_Books_to_Cart/)
+- [Live Demo Link](https://xrichardroidx.github.io/Add_New_Items/)
 
 <div align="center">
 
@@ -105,7 +105,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/XRichardroidX/Add_Books_to_Cart.git
+   git clone https://github.com/XRichardroidX/Add_New_Items.git
    ```
 2. Install NPM packages
    ```sh
@@ -148,7 +148,7 @@ To get a local copy up and running, follow these steps.
 
 - Contributions, issues, and feature requests are welcome!
 
-- Feel free to check the [issues page](https://github.com/KIsmoilov/JS-Capstone-Project/issues).
+- Feel free to check the [issues page](https://github.com/XRichardroidX/Add_New_Items/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,7 +166,7 @@ To get a local copy up and running, follow these steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/XRichardroidX/Add_Books_to_Cart/issues).
+Feel free to check the [issues page](https://github.com/XRichardroidX/Add_New_Items/issues).
 
 ## Show your support
 
